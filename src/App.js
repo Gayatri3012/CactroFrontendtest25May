@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import StoryList from './Components/StoryList';
 import StoryViewer from './Components/StoryViewer';
 import './index.css';
+import Post from './Components/Posts/Post';
 
 function App() {
   const [stories, setStories] = useState([]);
@@ -43,6 +44,7 @@ function App() {
         </div>
 
          <StoryList stories={stories} onStoryClick={openStory} />  
+         <Post />
       </>
     )}
 

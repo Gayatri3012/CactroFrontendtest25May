@@ -1,0 +1,64 @@
+.post{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.postHeader{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.postHeader p{
+    margin: 0;
+    font-size: smaller;
+}
+
+.moreOption{
+    margin-left: auto;
+    /* padding-left: 160px; */
+}
+
+.authorImage{
+    border-radius: 50%;
+    border: 2px solid #D300C5 ;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.authorImage img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+.postContent{
+    margin-top: 10px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.postContent img{
+    border-radius: 2px;
+    border: 1px solid gray;
+    width: 300px;
+    height: auto;
+}
+
+.postButtons{
+    width: 470px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
