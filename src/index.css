@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #000;
+  color: white;
+}
+
+.app {
+  max-width: 480px;
+  margin: auto;
+  height: 100vh;
+  background-color: black;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.app-logo{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;  
+  border-bottom: 1px solid #717171;
+}
+
+.app-logo img{
+  /* max-width: 30px; */
+  max-height: 2.5rem;
+}
+
+.loadingSpinner {
+  margin: auto;
+  width: 40px;
+  color: white;
+  font-size: 18px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

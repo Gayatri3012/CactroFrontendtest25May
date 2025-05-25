@@ -1,0 +1,60 @@
+.storyViewer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+  
+.closeBtn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 4px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+  
+.storyImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+.fadeIn {
+    opacity: 1;
+}
+  
+.fadeOut {
+    opacity: 0;
+}
+  
+.loadingSpinner {
+    color: white;
+    font-size: 18px;
+    animation: spin 2s linear infinite;
+}
+
+
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+  
+
+  
+@media (min-width: 768px) {
+    .storyViewer {
+      display: none; 
+    }
+}

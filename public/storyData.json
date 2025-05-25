@@ -1,0 +1,12 @@
+ [ 
+    { "id": 1, "image": "/data/story1.jpg" },
+    { "id": 2, "image": "/data/story2.jpg" },
+    { "id": 3, "image": "/data/story3.jpg" },
+    { "id": 4, "image": "/data/story4.jpg" },
+    { "id": 5, "image": "/data/story5.jpg" },
+    { "id": 6, "image": "/data/story6.jpg" },
+    { "id": 7, "image": "/data/story7.jpg" },
+    { "id": 8, "image": "/data/story8.jpg" },
+    { "id": 9, "image": "/data/story9.jpg" }
+]
+
